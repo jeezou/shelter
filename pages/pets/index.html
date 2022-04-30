@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="icon"
+      href="../../assets/images/logo_image.png"
+      type="image/icon type"
+    />
+    <title>Shelter</title>
+  </head>
+  <body>
+    <section class="main-header">
+      <div class="wrapper">
+        <header>
+          <div class="logo" onclick="window.location.href='../main/index.html'">
+            <h1 class="logo__top">Cozy House</h1>
+            <div class="logo__bottom">Shelter for pets in Boston</div>
+          </div>
+          <nav class="nav">
+            <div class="logo" onclick="window.location.href=''">
+              <h1 class="logo__top">Cozy House</h1>
+              <div class="logo__bottom">Shelter for pets in Boston</div>
+            </div>
+            <a class="nav__item" href="../main/index.html">About the shelter</a>
+            <a class="nav__item nav__item-active" href="#">Our pets</a>
+            <a class="nav__item" href="../main/index.html#help"
+              >Help the shelter</a
+            >
+            <a class="nav__item" href="#footer">Contacts</a>
+          </nav>
+          <div class="burger">
+            <div class="burger__line"></div>
+            <div class="burger__line"></div>
+            <div class="burger__line"></div>
+          </div>
+        </header>
+      </div>
+    </section>
+    <div class="popup">
+      <div class="popup__button">
+        <img src="../../assets/icons/popup-button.png" />
+      </div>
+      <div class="popup__container">
+        <img src="../../assets/images/pets-jennifer.png" class="popup__image" />
+        <div class="popup__content">
+          <div class="popup__heading">
+            <h3 class="popup__title">Jennifer</h3>
+            <h4 class="popup__subtitle">
+              <span class="type">Dog</span> -
+              <span class="breed">Labrador</span>
+            </h4>
+          </div>
+          <h5 class="popup__p">
+            Jennifer is a sweet 2 months old Labrador that is patiently waiting
+            to find a new forever home. This girl really enjoys being able to go
+            outside to run and play, but won't hesitate to play up a storm in
+            the house if she has all of her favorite toys.
+          </h5>
+          <ul class="popup__list">
+            <h5 class="age">
+              <span class="bold">Age: </span>
+              <span class="content">2 months</span>
+            </h5>
+            <h5 class="ino">
+              <span class="bold">Inoculations: </span
+              ><span class="content">none</span>
+            </h5>
+            <h5 class="dis">
+              <span class="bold">Diseases: </span
+              ><span class="content">none</span>
+            </h5>
+            <h5 class="par">
+              <span class="bold">Parasites: </span
+              ><span class="content">none</span>
+            </h5>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <section class="pets">
+      <div class="wrapper">
+        <h3 class="pets__heading">
+          Our friends who<br />
+          are looking for a house
+        </h3>
+        <div class="slider-wrapper">
+          <div class="slider"></div>
+        </div>
+
+        <div class="pag">
+          <h4
+            class="pag__item pag__end-left pag__end-btn pag__end-btn--inactive"
+          >
+            <<
+          </h4>
+          <h4 class="pag__item pag__btn-left pag__btn pag__btn--inactive"><</h4>
+          <h4 class="pag__item pag__number">1</h4>
+          <h4 class="pag__item pag__btn-right pag__btn">></h4>
+          <h4 class="pag__item pag__end-right pag__end-btn">>></h4>
+        </div>
+      </div>
+    </section>
+    <section class="footer" id="footer">
+      <footer>
+        <div class="wrapper">
+          <div class="contacts">
+            <h3 class="contacts__heading">
+              <div>For questions <span class="mobile">and</span></div>
+              <span class="delete_mobile">and</span> suggestions
+            </h3>
+            <a
+              href="mailto:email@shelter.com"
+              class="contacts__item"
+              style="text-decoration: none !important; text-decoration: none"
+            >
+              <img
+                src="../../assets/icons/icon-email.svg"
+                alt="icon-email"
+                class="icon"
+              />
+              <h4 class="content">email@shelter.com</h4>
+            </a>
+            <a
+              href="tel:+13 674 567 75 54"
+              class="contacts__item"
+              style="text-decoration: none !important; text-decoration: none"
+            >
+              <img
+                src="../../assets/icons/icon-phone.svg"
+                alt="icon-phone"
+                class="icon"
+              />
+              <h4 class="content">+13 674 567 75 54</h4>
+            </a>
+          </div>
+          <div class="location">
+            <h3 class="location__heading">
+              <div>We are waiting <span class="mobile">for</span></div>
+              <span class="delete_mobile">for</span> your visit
+            </h3>
+            <a
+              href="https://goo.gl/maps/tmUNrKqyWZ97PWhS7"
+              target="_blank"
+              class="location__item"
+            >
+              <img
+                src="../../assets/icons/icon-marker.png"
+                alt="icon-marker"
+                class="icon"
+              />
+              <h4 class="content">
+                1 Central Street, Boston<br />
+                (entrance from the store)
+              </h4>
+            </a>
+            <a
+              class="location__item"
+              href="https://goo.gl/maps/WFySYwCFx8P6pQTe8"
+              target="_blank"
+            >
+              <img
+                src="../../assets/icons/icon-marker.png"
+                alt="icon-marker"
+                class="icon"
+              />
+              <h4 class="content">18 South Park, London</h4>
+            </a>
+          </div>
+          <img
+            src="../../assets/images/footer-puppy.png"
+            alt="footer-puppy"
+            class="image"
+          />
+        </div>
+      </footer>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
